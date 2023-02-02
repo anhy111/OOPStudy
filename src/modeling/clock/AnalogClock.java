@@ -10,7 +10,7 @@ public class AnalogClock extends Clock {
 		final int HOUR_ANGLE = 360 / 12;
 		return HOUR_ANGLE * getHours() + HOUR_ANGLE / 60 * getMinutes();
 	}
-	
+	 
 	public int getMinuteHandAngle() {
 		return getMinutes() * 6;
 	}
